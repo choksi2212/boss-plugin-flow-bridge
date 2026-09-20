@@ -1,0 +1,26 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.flowbridge",
+  "displayName": "Flow Bridge (Dynamic)",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.5.0",
+  "mainClass": "ai.rever.boss.plugin.dynamic.flowbridge.FlowBridgeDynamicPlugin",
+  "type": "mixed",
+  "description": "Bridge between rparecorder, rpaengine, llmrpa and flow-tab - recordings become graphs, drafts become runs",
+  "author": "Risa Labs",
+  "url": "https://github.com/risa-labs-inc/boss-plugin-flow-bridge",
+  "panel": {
+    "position": "right_top_top",
+    "priority": 21
+  },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process",
+  "stateHolderClass": "ai.rever.boss.plugin.runtime.stateholders.FlowBridgeStateHolder"
+}
