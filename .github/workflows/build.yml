@@ -5,6 +5,12 @@ on:
   push:
     branches: [main]
 
+# The reusable workflow pushes a version bump commit back to main; it needs
+# write access. Without this, github-actions[bot] gets 403 on push and the
+# whole release run fails before the build even runs.
+permissions:
+  contents: write
+
 jobs:
   release:
     uses: risa-labs-inc/BossConsole-Releases/.github/workflows/plugin-release.yml@main
