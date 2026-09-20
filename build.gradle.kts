@@ -11,7 +11,7 @@ group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: bridges rparecorder, rpaengine, llmrpa and flow-tab into a single panel and a unified
 // MCP surface (flow_bridge_*). Target plugins are independent repos, so the bridge reaches them
 // exclusively through MCP tool names - there are no compile-time references to their types.
-version = "0.1.0"
+version = "0.1.1"
 
 // Auto-detect CI environment: CI=true uses the downloaded jar under build/downloaded-deps.
 val useLocalDependencies = System.getenv("CI") != "true"
