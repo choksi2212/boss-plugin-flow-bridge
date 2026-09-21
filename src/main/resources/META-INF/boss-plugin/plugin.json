@@ -9,8 +9,8 @@
   "mainClass": "ai.rever.boss.plugin.dynamic.flowbridge.FlowBridgeDynamicPlugin",
   "type": "mixed",
   "description": "Bridge between rparecorder, rpaengine, llmrpa and flow-tab - recordings become graphs, drafts become runs",
-  "author": "Risa Labs",
-  "url": "https://github.com/risa-labs-inc/boss-plugin-flow-bridge",
+  "author": "choksi2212",
+  "url": "https://github.com/choksi2212/boss-plugin-flow-bridge",
   "panel": {
     "position": "right_top_top",
     "priority": 21
