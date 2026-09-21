@@ -28,7 +28,7 @@ class FlowBridgeDynamicPlugin : DynamicPlugin {
     override val version: String = manifestVersion()
     override val description: String =
         "Bridge between rparecorder, rpaengine, llmrpa and flow-tab - recordings become graphs, drafts become runs."
-    override val author: String = "Risa Labs"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/risa-labs-inc/boss-plugin-flow-bridge"
 
     // Last opened panel, so MCP tools can drive it (the four target plugins follow the same
